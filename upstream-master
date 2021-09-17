@@ -1,0 +1,3 @@
+git remote add upstream git@github.com:rapid7/metasploit-framework.git
+git fetch upstream
+git checkout -b upstream-master --track upstream/master
